@@ -7,6 +7,17 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: #f0f8ff;
+    animation : load .4s ease;
+}
+
+/* Site load Animation */
+@keyframes load {
+    from{
+         opacity: 0;transform: translateY(-10px);
+    }
+    end{
+         opacity: 1;transform: translateY(0);
+    }
 }
 
 /* Main Title */
